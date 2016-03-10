@@ -1,4 +1,5 @@
 import glob
+import argparse
 
 def loadFiles(path):
 	fileToText = {}
@@ -21,10 +22,10 @@ def wordSearch(word, fileToText):
 	return resultsDict
 
 
-def main(outfile):
+def main(vocabFile, outFile):
 	fTT = loadFiles("/Users/aakashjapi/history168A/*.rtf")
-	with open(outfile, 'w') as f:
-		for word in loadVocab("words.txt"):
+	with open(outFile, 'w') as f:
+		for word in loadVocab(vocabFile):
 			f.write("\n" + word.title() + ": \n")
 			resultsDict = wordSearch(word, fTT)
 			for key in resultsDict:
@@ -34,4 +35,9 @@ def main(outfile):
 						f.write("\t\t " + line + "\n ")
 
 if __name__ == "__main__":
-	main("defs.txt")
+	parser = argparse.ArgumentParser(description='Find relevant bullets.')
+	parser.add_argument('-v', type=str, help='the input vocab file', action='store', required=True)
+	parser.add_argument('-o', type=str, help='the output file', action='store', required=False, default="out.txt")
+	args = vars(parser.parse_args())
+	main(args['v'], args['o'])
+	print("Finished. Check " + args['o'] + " for your definitions.")
