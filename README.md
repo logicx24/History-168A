@@ -5,7 +5,7 @@ I also wrote a vocab finder to make it easier to find definitions of words.
 
 usage: vocabToBullets.py [-h] -v V [-o O]
 Find relevant bullets.  
-optional arguments:  
+arguments:  
   -h, --help  show this help message and exit  
   -v V        the input vocab file  
   -o O        the output file (optional)  
