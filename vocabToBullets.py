@@ -23,7 +23,7 @@ def wordSearch(word, fileToText):
 
 
 def main(vocabFile, outFile):
-	fTT = loadFiles("/Users/aakashjapi/history168A/*.rtf")
+	fTT = loadFiles("./notes/*.rtf")
 	with open(outFile, 'w') as f:
 		for word in loadVocab(vocabFile):
 			f.write("\n" + word.title() + ": \n")
