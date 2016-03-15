@@ -54,3 +54,34 @@ Polyglot Bible:
 	./notes/TheBenefitsCostsofEmpireinAgeofPlunder.rtf: 
 		 **** major example of biblical humanism in early 16 century  nebrija, works on the polyglot bible (cyriac, aramaic, greek, hebrew, latin all side by side)  great grammatical/linguistic knowledge ****** 
  
+Al Andalus: 
+
+	./notes/MedievalSpain.rtf: 
+		 f0fs24 cf0 the islamic conquest of spain (al andalusia   andalusia)
+ 
+	./notes/review.rtf: 
+		 taifa states  an arab principality or emirate that formed in al andalus after the fall of the umayyad caliphate in the 11th century. showed fragmentation of islamic states in spain, began the reconquista, as these were increasingly absorbed by the christian kingdoms of the north until granada, the final holdout, was conquered. 
+ 
+	./notes/MiddleMedievalSpain.rtf: 
+		 f0fs24 cf0 11th century  the caliphate of cordoba experiences a political implosion, and the unity of al andalus, as an islamic kingdom, comes to an end.
+ 
+Convivencia: 
+
+	./notes/MedievalSpain.rtf: 
+		 leads to the perception that spain was together  convivencia  spain/arbs
+ 
+	./notes/review.rtf: 
+		 convivencia  a period from the umayyad conquest of hispania to ferdinand and isabella'92s expulsion of the jews in 1492, where religious diversity thrived, as compared to the later period, where catholicism was imposed forcibly upon the subjects of spain. it played a major role in the revival of greek/roman learning later, and its fall is linked to the rise of the spanish empire, where tolerance is replaced with the inquisition. 
+ 
+Peter Iii: 
+
+	./notes/13thto15thCenturySpain.rtf: 
+		   peter iii  maintained his father'92s conquests.
+ 		       begins a revolt  invite peter iii (of aragon) to sicily to be their king
+ 
+	./notes/RiseOfPhilipandCharlesVLegacy.rtf: 
+		   id  medieval kingdom of aragon  expansion, taking of sicily by peter iii, growth of aragon as part of the rise of spain
+ 
+	./notes/CharlesVrenaissance.rtf: 
+		     follows the ancient route of the roman emperors through rome, wearing imperial garb, welcomed by the senators of rome, and is then welcomed by peter iii
+ 

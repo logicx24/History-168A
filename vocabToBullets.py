@@ -32,7 +32,7 @@ def main(vocabFile, outFile):
 				if resultsDict[key]:
 					f.write("\n\t" + key + ": \n")
 					for line in resultsDict[key]:
-						f.write("\t\t " + line + "\n ")
+						f.write("\t\t - " + line.strip() + "\n ")
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description='Find relevant bullets.')
